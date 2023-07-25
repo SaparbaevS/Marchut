@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pop</title>
+</head>
+<body>
+ <div style="margin: auto;
+                margin-top: 100px;
+                width: 300px">
+        {% for Pop in pop %}
+
+        <div style="border: 3px solid black;
+                    margin-bottom: 10px;
+                    text-align: center;">
+            <p>{{ Pop }}</p>
+            <p>{{ Pop.favorite_music}}</p>
+            <p>{{ Pop.biography}}</p>
+
+
+        </div>
+        {% endfor %}
+   </div>
+
+
+
+</body>
+</html>
